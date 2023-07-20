@@ -1,8 +1,8 @@
 function skillMember() {
     return {
         restrict: 'E',
-        templateUrl: 'app/components/skill/member.html',
-        controller: 'SkillMemberController',
+        templateUrl: 'modules/skills/views/member.html',
+        controller: 'SkillsMemberController',
         controllerAs: 'vm',
         bindToController: true,
         scope: {
